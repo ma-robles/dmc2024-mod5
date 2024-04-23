@@ -142,6 +142,23 @@ prueba creando las variables en la tabla
 - operaciones matemáticas 
 - comparaciones 
 
+# print
+Imprime una o más variables en una línea, si son más de una variable, se usa un carácter de separación. El carácter de separación por defecto es un espacio. También existe un carácter de fin de línea, por defecto es el carácter \n o "nueva línea". Por defecto imprime en la pantalla pero puede imprimir en un archivo.
+
+## Sintaxis básica 
+print ( <variable 1>, <variable 2>, ...)
+
+## Personalizando
+print( <var>, sep=<caracter de separación>, end=<caracter de fin de línea>)
+
+# input
+
+# Operaciones matemáticas y lógicas 
+
+# comparaciones
+
+
+
 # Modo Script 
 
 ## Ejecución 
