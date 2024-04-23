@@ -122,15 +122,47 @@ prueba creando las variables en la tabla
 # Transformando entre tipos
 
 ## Se puede transformar de un tipo de variable a otra
--  **int(val)**: transforma a entero
--  **float(val)**: transforma a flotante
--  **str(val)**: transforma a cadena
+- **int(val)**: transforma a entero
+- **float(val)**: transforma a flotante
+- **str(val)**: transforma a cadena
+- **type(var)**: indica el tipo de variable
 
-## Ejercicio: Usando el intérprete de Python transforma
+## Ejercicio: Usando el intérprete de Python verifica el tipo inicial y transforma al tipo que se indica.
 
 - **3.1415** a entero y a cadena
 - **2** a flotante y a cadena
 - **"23.12"** a flotante y a entero
+
+# Instrucciones imperativas 
+
+## Instrucciones básicas
+- print
+- input
+- conversiones de tipos
+- operaciones matemáticas 
+- comparaciones 
+
+# Modo Script 
+
+## Ejecución 
+- Se escribe *Python* + espacio + archivo
+*archivo* es el nombre del archivo donde se encuentran las instrucciones. Típicamente tiene terminación .py
+
+## Algoritmo para crear y correr un script
+- Crear archivo con instrucciones de python.
+- Guardar el archivo con terminación.py
+- Abrir terminal con acceso a Python
+- Cambiarse al directorio donde se encuentra nuestro archivo .py
+- Ejecutar escribiendo python + archivo
+
+# Ejercicios Script
+
+## hola mundo con nombre
+Crear un script que pregunte el nombre del usuario, reciba el nombre y responda con "Hola"+nombre
+
+## par o impar
+Crear y correr un script que verifique si el valor ingresado es par o impar. También valide que el número sea entero, de lo contrario muestre un mensaje indicando el error.
+
 
 # Instrucciones de decisión e iteración
 
