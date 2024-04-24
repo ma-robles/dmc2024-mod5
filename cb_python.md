@@ -116,16 +116,34 @@ Ejecuta un programa almacenado en un archivo.
 |  `>>> cadena = "Esto es una cadena"` | `>>> dic = { 1:'enero', 2:'febrero', 3:'marzo'}` |
 |   `>>> booleano = True` | |
 
+# Ejercicios de variables
 
-prueba creando las variables en la tabla
+## Ejercicio "Hola variable"
+Repite el programa _"Hola mundo"_ utilizando una variable, escribe las siguientes líneas en el intérprete de Python:
+
+    >>> saludo = "hola mundo"
+    >>> print(saludo)
+
+## Ejercicio
+Prueba creando las variables de la tabla en el intérprete de Python. Para ver el valor de una variable en el intérprete, basta con escribir su nombre + \keys{\return} o con ayuda de la función `print`
 
 # Transformando entre tipos
 
-## Se puede transformar de un tipo de variable a otra
+## Se puede transformar de un tipo del valor de una variable a otro
 - **int(val)**: transforma a entero
 - **float(val)**: transforma a flotante
 - **str(val)**: transforma a cadena
 - **type(var)**: indica el tipo de variable
+
+_val_ es una variable de un tipo diferente al deseado
+
+## Ejemplo:
+Convertir la variable n= 2.0 a entero:
+
+    >>>n=2.0
+    >>>int(n)
+    2
+Se puede observar que _int_ devuelve un entero (2)
 
 ## Ejercicio: Usando el intérprete de Python verifica el tipo inicial y transforma al tipo que se indica.
 
@@ -143,21 +161,35 @@ prueba creando las variables en la tabla
 - comparaciones 
 
 # print
-Imprime una o más variables en una línea, si son más de una variable, se usa un carácter de separación. El carácter de separación por defecto es un espacio. También existe un carácter de fin de línea, por defecto es el carácter \n o "nueva línea". Por defecto imprime en la pantalla pero puede imprimir en un archivo.
+
+## Descripción:
+Imprime una o más variables en una línea, si son más de una variable, se usa un carácter de separación. El carácter de separación por defecto es un espacio. También existe un carácter de fin de línea, por defecto es el carácter \\n o "nueva línea". Por defecto imprime en la pantalla pero puede imprimir en un archivo.
 
 ## Sintaxis básica 
 print ( <variable 1>, <variable 2>, ...)
 
 ## Personalizando
-print( <var>, sep=<caracter de separación>, end=<caracter de fin de línea>)
+print( < variable(s) >, sep=<caracter de separación>, end=<caracter de fin de línea>)
 
 # input
 
-# Operaciones matemáticas y lógicas 
+## Descripción:
+Obtiene valores del usuario y los regresa como una cadena de texto que se puede almacenar en una variable
 
-# comparaciones
+## Sintaxis
+```
+<respuesta> = input(<mensaje>)
+```
+
+## Ejemplo
+\center
+\includegraphics[width=0.5\textwidth]{img/python_input.png}
 
 
+# Operaciones matemáticas, lógicas y comparaciones
+Estas operaciones son bastante simples y "estandar". Consultar cheatsheet adjunta.
+
+Como ejercicio, pruebe realizar algunas en el intérprete
 
 # Modo Script 
 
@@ -183,6 +215,29 @@ Crear y correr un script que verifique si el valor ingresado es par o impar. Tam
 
 # Instrucciones de decisión e iteración
 
+##
+Este tipo de instrucciones requieren de un bloque de código que se realiza cuando se cumple alguna condición. En Python, para delimitar un bloque de código se utiliza un _"sangrado"_, es decir, cierto espacio inicial, con el cual se encuentra alineado todo el bloque.
+Por esto, en Python, es de suma importancia el espaciado inicial que se le da cada línea de código. De manera etándar se utiliza un sangrado de 4 espacios.
+
+## Sintaxis
+Su sintaxis consiste de las palabras if/while seguidas de la condición a evaluar y terminando por _":"_ (dos puntos).
+Las instrucciones siguientes se deben _sangrar_ para indicar que pertenecen al bloque.
+Para finalizar el bloque, simplemente se deja de sangrar.
+
+# Ejemplos
+
+## Ejemplo if:
+\center
+\includegraphics[width=0.8\textwidth]{img/python_if.png}
+
+## Ejemplo while:
+\center
+\includegraphics[width=0.8\textwidth]{img/python_while.png}
+
+
+
+# Resumen de instrucciones de decisión e iteración
+
 \center
 \includegraphics[width=0.8\textwidth]{img/python_sintax.png}
 
@@ -205,12 +260,4 @@ Crear una variable que contenga la siguiente cadena e imprimir los valores por s
 ## Respuesta
 \center
 \includegraphics[width=0.95\textwidth]{img/python_split.png}
-
-# Abriendo archivos
-
-# Obteniendo valores de un archivo CSV
-
-# Graficando CSV
-
-
 
