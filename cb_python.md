@@ -112,9 +112,10 @@ Ejecuta un programa almacenado en un archivo.
 
 | **Básicos**  | **Compuestos** |
 |:---|:---|
-|   `>>> flotante = 1.0` |    `>>> tupla = (10.9, 10.8, 10)` |
-|  `>>> cadena = "Esto es una cadena"` | `>>> dic = { 1:'enero', 2:'febrero', 3:'marzo'}` |
-|   `>>> booleano = True` | |
+| `>>> entero = 2`  | `>>> lista = [ 3, 2.3, "a" ]` |
+| `>>> flotante = 1.0` |    `>>> tupla = (10.9, 10.8, 10)` |
+| `>>> cadena = "Esto es una cadena"` | `>>> dic = { 1:'enero', 2:'febrero', 3:'marzo'}` |
+| `>>> booleano = True` | |
 
 # Ejercicios de variables
 
@@ -145,11 +146,33 @@ Convertir la variable n= 2.0 a entero:
     2
 Se puede observar que _int_ devuelve un entero (2)
 
-## Ejercicio: Usando el intérprete de Python verifica el tipo inicial y transforma al tipo que se indica.
+# Ejercicio
+## Usando el intérprete de Python verifica el tipo inicial y transforma al tipo que se indica.
 
 - **3.1415** a entero y a cadena
 - **2** a flotante y a cadena
 - **"23.12"** a flotante y a entero
+
+# Listas
+- Las listas son arreglos indizados de variables
+- Se pueden usar diferentes tipos de variables
+- Los índices comienzan en el 0
+- También se pueden utilizar índices negativos (-1 es el último elemento)
+- Se puede indicar una sub-lista indicando los índices inicial y final
+- Cuentan con una variedad de métodos, pero mas usado es _append_
+
+\center
+\includegraphics[width=0.7\textwidth]{img/python_lista.png}
+
+
+# Tuplas y Diccionarios
+
+## Tuplas
+- Son similares a las listas pero son inmutables
+
+## Diccionarios
+- Los diccionarios se conforman de parejas _clave:valor_ 
+- Podemos verlos como una especie de listas en las el índice es la clave, y por lo tanto no hay un orden
 
 # Instrucciones imperativas 
 
